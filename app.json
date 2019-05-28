@@ -1,0 +1,21 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "LabOnline",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}

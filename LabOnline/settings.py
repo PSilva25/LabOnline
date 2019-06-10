@@ -111,11 +111,8 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'pt-BR'
 
 TIME_ZONE = 'America/Sao_Paulo'
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
 
 
@@ -129,6 +126,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #MEDIA_URL = '/media'
 MEDIA_URL = '/media/'
-
 
 #MEDIA_ROOT = os.path.join (BASE_DIR, 'LabOnline/media')
